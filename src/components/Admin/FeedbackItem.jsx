@@ -33,13 +33,13 @@ export default function FeedbackItem({ feedbackItem, fetchFeedback }) {
       <td onClick={flagFeedback}>
         {feedbackItem.flagged === true ? (
           <img
-            src='public/images/checked.png'
+            src='/images/checked.png'
             alt='Flagged'
             width={24}
           />
         ) : (
           <img
-            src='public/images/delete.png'
+            src='/images/delete.png'
             alt='Not Flagged'
             width={24}
           />
